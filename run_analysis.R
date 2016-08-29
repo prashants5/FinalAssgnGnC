@@ -89,6 +89,6 @@ names(VarMeansBySubjectActivity) = gsub("mean", "MEAN", names(VarMeansBySubjectA
 names(VarMeansBySubjectActivity) = gsub("std", "STDEV", names(VarMeansBySubjectActivity))
 
 # Write table to file.
-write.table(VarMeansBySubjectActivity, "./VariableMeans_by_ActivitySubject.csv")
+write.table(VarMeansBySubjectActivity, "./VariableMeans_by_ActivitySubject.txt", row.names = FALSE)
 
 cat("Operation Complete\n")

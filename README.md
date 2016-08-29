@@ -14,7 +14,7 @@ To run the data in R:
 `source(“run_analysis.R”)`
 
 To view the output:
-`AssignmentData = read.csv(“./VariableMeans_by_ActivitySubject.csv”, header=TRUE)`
+`AssignmentData = read.table(“./VariableMeans_by_ActivitySubject.txt”, header=TRUE)`
 
 # Methodology
 The source data is described at:
